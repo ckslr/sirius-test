@@ -8,7 +8,7 @@ import { OptionsCard } from "../components/OptionsCard";
 import { SpeedOptionsCard } from "../components/SpeedOptionsCard";
 
 const numberOfWords = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const wordsLength = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const wordsLength = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 const wordDistance = [5, 10, 15, 20, 25, 30, 35, 40];
 
 export default function Home() {
@@ -73,7 +73,7 @@ export default function Home() {
             onSelectedOptionChange={onSelectedOptionChange}
             step={1}
             min={3}
-            max={12}
+            max={16}
             description="Сколько букв в словах"
             datalist={wordsLength}
           />
